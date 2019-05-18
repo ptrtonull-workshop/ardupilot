@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ArduCopter.pde" />
+    <None Include="AP_State.pde" />
+    <None Include="Attitude.pde" />
+    <None Include="commands.pde" />
+    <None Include="commands_logic.pde" />
+    <None Include="compassmot.pde" />
+    <None Include="compat.pde" />
+    <None Include="control_acro.pde" />
+    <None Include="control_althold.pde" />
+    <None Include="control_auto.pde" />
+    <None Include="control_autotune.pde" />
+    <None Include="control_circle.pde" />
+    <None Include="control_drift.pde" />
+    <None Include="control_flip.pde" />
+    <None Include="control_guided.pde" />
+    <None Include="control_land.pde" />
+    <None Include="control_loiter.pde" />
+    <None Include="control_ofloiter.pde" />
+    <None Include="control_poshold.pde" />
+    <None Include="control_rtl.pde" />
+    <None Include="control_sport.pde" />
+    <None Include="control_stabilize.pde" />
+    <None Include="crash_check.pde" />
+    <None Include="ekf_check.pde" />
+    <None Include="events.pde" />
+    <None Include="failsafe.pde" />
+    <None Include="fence.pde" />
+    <None Include="flight_mode.pde" />
+    <None Include="GCS_Mavlink.pde" />
+    <None Include="heli.pde" />
+    <None Include="heli_control_acro.pde" />
+    <None Include="heli_control_stabilize.pde" />
+    <None Include="inertia.pde" />
+    <None Include="land_detector.pde" />
+    <None Include="leds.pde" />
+    <None Include="Log.pde" />
+    <None Include="motors.pde" />
+    <None Include="motor_test.pde" />
+    <None Include="navigation.pde" />
+    <None Include="Parameters.pde" />
+    <None Include="perf_info.pde" />
+    <None Include="position_vector.pde" />
+    <None Include="radio.pde" />
+    <None Include="sensors.pde" />
+    <None Include="setup.pde" />
+    <None Include="switches.pde" />
+    <None Include="system.pde" />
+    <None Include="test.pde" />
+    <None Include="UserCode.pde" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="__vm\.ArduCopter.vsarduino.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="APM_Config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="APM_Config_mavlink_hil.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="compat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="config_channels.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="defines.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="heli.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Parameters.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UserVariables.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
