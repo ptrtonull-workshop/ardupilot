@@ -18,3 +18,14 @@
 | APM     | 真正控制飞机             | 1、接收来自STM32的命令信息           |
 |         |                          | 2、控制飞机                          |
 
+## APM
+
+相关教程：
+
+- [APM飞控学习之路：1 无人机的分类与发展](https://github.com/ptrtonull-workshop/ardupilot/blob/master/APM/blog/1/index.md)
+- [APM飞控学习之路：2 四旋翼的工作原理与系统组成](https://github.com/ptrtonull-workshop/ardupilot/blob/master/APM/blog/2/index.md)
+- [APM飞控学习之路：3 APM系统介绍与开发环境搭建](https://github.com/ptrtonull-workshop/ardupilot/blob/master/APM/blog/3/index.md)
+
+- [APM飞控学习之路：4 源码裁剪与下载](https://github.com/ptrtonull-workshop/ardupilot/blob/master/APM/blog/4/index.md)
+- [APM飞控学习之路：5 串口概述与收发调试](https://github.com/ptrtonull-workshop/ardupilot/blob/master/APM/blog/5/index.md)
+
